@@ -11,8 +11,4 @@
     <ProjectReference Include="..\ProcessTendors.Domain\ProcessTendors.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\Models\" />
-  </ItemGroup>
-
 </Project>

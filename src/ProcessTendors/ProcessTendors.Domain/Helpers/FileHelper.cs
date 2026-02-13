@@ -2,7 +2,7 @@
 
 namespace ProcessTendors.Domain.Helpers
 {
-    public static class CsvHelper
+    public static class FileHelper
     {
         public static DataTable LoadCsv(string path)
         {
