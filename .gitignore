@@ -11,3 +11,11 @@
 /src/ProcessTendors/.vs/ProcessTendors.slnx/v18/.suo
 /src/ProcessTendors/.vs/ProcessTendors.slnx/v18/DocumentLayout.backup.json
 /src/ProcessTendors/.vs/ProcessTendors.slnx/v18/DocumentLayout.json
+/src/ProcessTendors/ProcessTendors.Application/bin/Debug/net10.0
+/src/ProcessTendors/ProcessTendors.Application/obj/Debug/net10.0/ref
+/src/ProcessTendors/ProcessTendors.Application/obj/Debug/net10.0/refint
+/src/ProcessTendors/ProcessTendors.Application/obj
+/src/ProcessTendors/ProcessTendors.Domain/bin/Debug/net10.0
+/src/ProcessTendors/ProcessTendors.Domain/obj
+/src/ProcessTendors/ProcessTendors.Infrastructure/bin/Debug/net10.0
+/src/ProcessTendors/ProcessTendors.Infrastructure/obj
