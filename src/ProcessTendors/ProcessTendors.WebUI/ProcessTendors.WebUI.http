@@ -1,0 +1,6 @@
+@ProcessTendors.WebUI_HostAddress = http://localhost:5052
+
+GET {{ProcessTendors.WebUI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
