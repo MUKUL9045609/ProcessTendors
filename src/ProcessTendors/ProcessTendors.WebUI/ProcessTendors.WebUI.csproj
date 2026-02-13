@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProcessTendors.Application\ProcessTendors.Application.csproj" />
+    <ProjectReference Include="..\ProcessTendors.Infrastructure\ProcessTendors.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

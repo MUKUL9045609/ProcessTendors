@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="ProcessTendors.Application/ProcessTendors.Application.csproj" Id="f0566755-f3a1-4c6a-adc3-5ee649f0efd2" />
+  <Project Path="ProcessTendors.Domain/ProcessTendors.Domain.csproj" Id="f7bfb919-e994-4a18-a2af-e188cda385ee" />
+  <Project Path="ProcessTendors.Infrastructure/ProcessTendors.Infrastructure.csproj" Id="c56e573e-7e90-4e49-80c2-06da42f95a72" />
   <Project Path="ProcessTendors.WebUI/ProcessTendors.WebUI.csproj" Id="330b312d-6d0b-42ec-a26e-fb88a59b5fe8" />
 </Solution>
