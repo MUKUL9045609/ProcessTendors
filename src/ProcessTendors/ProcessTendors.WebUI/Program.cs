@@ -1,3 +1,4 @@
+using ProcessTendors.Infrastructure;
 using ProcessTendors.WebUI;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddWebUIServices(builder.Configuration);
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddMemoryCache();
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 
 builder.Services.AddCors(options =>
@@ -31,11 +33,13 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Process Tendors API V1");
     c.RoutePrefix = string.Empty;
 });
-
+app.UseRouting();
 app.UseHttpsRedirection();
 app.UseCors("MyAllowSpecificOrigins");
 app.UseAuthorization();
 app.MapControllers();
+app.UseAuthentication();
+
 
 app.Run();
 
